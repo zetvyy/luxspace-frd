@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const BrowseRoom = () => {
   return (
@@ -26,7 +27,7 @@ export const BrowseRoom = () => {
               <h5 class="text-lg font-semibold">Living Room</h5>
               <span class="">18.309 items</span>
             </div>
-            <a href="details.html" class="stretched-link"></a>
+            <Link to="/categories/:idc" class="stretched-link"></Link>
           </div>
           <div class="relative col-span-9 row-span-1 md:col-span-2 md:row-span-2 card">
             <div class="card-shadow rounded-xl">
@@ -40,7 +41,7 @@ export const BrowseRoom = () => {
               <h5 class="text-lg font-semibold">Decoration</h5>
               <span class="">77.392 items</span>
             </div>
-            <a href="details.html" class="stretched-link"></a>
+            <Link to="/categories/:idc" class="stretched-link"></Link>
           </div>
           <div class="relative col-span-9 row-span-1 md:col-span-3 md:row-span-2 card">
             <div class="card-shadow rounded-xl">
@@ -54,7 +55,7 @@ export const BrowseRoom = () => {
               <h5 class="text-lg font-semibold">Living Room</h5>
               <span class="">22.094 items</span>
             </div>
-            <a href="details.html" class="stretched-link"></a>
+            <Link to="/categories/:idc" class="stretched-link"></Link>
           </div>
           <div class="relative col-span-9 row-span-1 md:col-span-4 card">
             <div class="card-shadow rounded-xl">
@@ -68,7 +69,7 @@ export const BrowseRoom = () => {
               <h5 class="text-lg font-semibold">Children Room</h5>
               <span class="">837 items</span>
             </div>
-            <a href="details.html" class="stretched-link"></a>
+            <Link to="/categories/:idc" class="stretched-link"></Link>
           </div>
         </div>
       </div>

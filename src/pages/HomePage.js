@@ -10,7 +10,7 @@ import { Footer } from "parts/Footer";
 export const HomePage = () => {
   return (
     <>
-      <Header />
+      <Header theme="white" position="absolute" />
       <Hero />
       <BrowseRoom />
       <JustArrived />
