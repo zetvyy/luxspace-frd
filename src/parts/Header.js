@@ -23,7 +23,7 @@ export const Header = ({ theme, position }) => {
               >
                 <li className="mx-3 py-6 md:py-0">
                   <Link
-                    to="/"
+                    to="/Showcase"
                     className={[
                       "hover:underline",
                       theme === "white"
@@ -36,7 +36,7 @@ export const Header = ({ theme, position }) => {
                 </li>
                 <li className="mx-3 py-6 md:py-0">
                   <Link
-                    to="/"
+                    to="/Catalog"
                     className={[
                       "hover:underline",
                       theme === "white"
@@ -49,7 +49,7 @@ export const Header = ({ theme, position }) => {
                 </li>
                 <li className="mx-3 py-6 md:py-0">
                   <Link
-                    to="/"
+                    to="/Delivery"
                     className={[
                       "hover:underline",
                       theme === "white"
@@ -62,7 +62,7 @@ export const Header = ({ theme, position }) => {
                 </li>
                 <li className="mx-3 py-6 md:py-0">
                   <Link
-                    to="/"
+                    to="/Rewards"
                     className={[
                       "hover:underline",
                       theme === "white"

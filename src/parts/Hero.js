@@ -1,6 +1,8 @@
+import useScrollAnchor from "helpers/hooks/useScrollAnchor";
 import React from "react";
 
 export const Hero = () => {
+  useScrollAnchor();
   return (
     <>
       <section className="flex items-center hero">
