@@ -83,16 +83,16 @@ export const DetailsPage = () => {
             </div>
           </div>
         </div>
-        <div class="flex-1 px-4 md:p-6">
-          <h2 class="text-5xl font-semibold">Chair Thatty</h2>
-          <p class="text-xl">IDR 12.000.000</p>
+        <div className="flex-1 px-4 md:p-6">
+          <h2 className="text-5xl font-semibold">Chair Thatty</h2>
+          <p className="text-xl">IDR 12.000.000</p>
 
           <a
             href="cart.html"
-            class="transition-all duration-200 bg-pink-400 text-black focus:bg-black focus:text-pink-400 rounded-full px-8 py-3 mt-4 inline-flex"
+            className="transition-all duration-200 bg-pink-400 text-black focus:bg-black focus:text-pink-400 rounded-full px-8 py-3 mt-4 inline-flex"
           >
             <svg
-              class="fill-current mr-3"
+              className="fill-current mr-3"
               width="26"
               height="24"
               viewBox="0 0 26 24"
@@ -105,15 +105,15 @@ export const DetailsPage = () => {
             </svg>
             Add to Cart
           </a>
-          <hr class="my-8" />
+          <hr className="my-8" />
 
-          <h6 class="text-xl font-semibold mb-4">About the product</h6>
-          <p class="text-xl leading-7 mb-6">
+          <h6 className="text-xl font-semibold mb-4">About the product</h6>
+          <p className="text-xl leading-7 mb-6">
             Tailored to a level of perfection synonymous with that of a Savile
             Row suit and with understated quality in the detail, Jetty has been
             influenced by timeless 1950s style.
           </p>
-          <p class="text-xl leading-7">
+          <p className="text-xl leading-7">
             Providing a subtle nod to the past, Jetty also provides a perfect
             solution for the way we work today. A comprehensive product family,
             Jetty features a variety of elegant chairs and sofas.

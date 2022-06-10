@@ -71,7 +71,7 @@ export const Suggestions = () => {
               </div>
               <h5 className="text-lg font-semibold mt-4">Syail Ammeno</h5>
               <span className="">IDR 6.399.999</span>
-              <a href="details.html" class="stretched-link">
+              <a href="details.html" className="stretched-link">
                 {/* <!-- fake children --> */}
               </a>
             </div>
